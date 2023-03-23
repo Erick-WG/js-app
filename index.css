@@ -1,5 +1,5 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("station.jpg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -7,11 +7,20 @@ body {
 }
 
 .container {
+    align-items: center;
     background: white;
     max-width: 80%;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+
+}#underline {
+    text-decoration: underline;
+    color: rgb(28, 236, 55);
+}
+
+span{
+    font-weight: bold;
 }
 
 h1 {
@@ -37,11 +46,11 @@ button {
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: #2066ff;
 }
 
 #save-btn {
-    background: #1C7947;
+    background: #00fa75;
 }
 
 #save-el {
